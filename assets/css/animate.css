@@ -1,0 +1,15 @@
+
+@keyframes float-bob-y {
+    0% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+.float-bob-y {
+    animation-name: float-bob-y;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}

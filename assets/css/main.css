@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+:root {
+  --font: "DM Sans", sans-serif;
+  --color-one: #e8604c;
+  --black-color: #313041;
+  --gray-color: #787780;
+  --bg-color-one: #313041;
+  --rey-font: "reeyregular";
+}
+
+body {
+  font-family: var(--font);
+}
+
+a,
+a:hover,
+a:focus,
+a:visited {
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+.nut {
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  /* Căn chình phần từ theo chiều dọc dựa trên phần tử cha */
+  -webkit-appearance: none;
+  border: none;
+  outline: none !important;
+  background-color: var(--color-one);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 8px 30px 8px;
+  transition: all 0.3s linear;
+  overflow: hidden;
+  letter-spacing: 0.1em;
+  z-index: 1;
+}
+.nut:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-color: #313041;
+  transition-delay: 0.1s;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.5s;
+  transition-property: all;
+  opacity: 1;
+  transform-origin: bottom;
+  transform-style: preserve-3d;
+  transform: scaleY(0);
+  z-index: -1;
+}
+.nut:hover:after {
+  opacity: 1;
+  transform: scaleY(1);
+}
+.nut:hover {
+  color: #fff;
+}
+
+/* Swiper */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Tour-search */
+@media (max-width: 991px) {
+  .tour-search-input_box:nth-child(1) {
+    border-bottom: 1px solid #ebe6de;
+  }
+  .tour-search-input_box:nth-child(2) {
+    border: none;
+  }
+  .tour-search-content_inner {
+    border: 1px solid #ebe6de;
+  }
+  .tour-search .nut.tour-seach_btn {
+    border-radius: 0;
+  }
+}
+@media (max-width: 768px) {
+  .tour-search-input_box:nth-child(2) {
+    border-bottom: 1px solid #ebe6de;
+  }
+  .tour-search-input_box:nth-child(3) {
+    border: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .tour-search-input_box {
+    padding: 20px 40px;
+  }
+}
+/*End Tour-search */
+/* Title */
+.section-title {
+  text-align: center;
+}
+.section-title__tagline {
+  display: block;
+  color: var(--color-one);
+  font-size: 20px;
+  align-items: center;
+  line-height: 30px;
+  font-weight: 400;
+  font-family: var(--rey-font);
+}
+.section-title__title {
+  margin: 0;
+  font-weight: 700;
+  color: var(--thm-black);
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+}
+
+/* Title */
+
+.show {
+  opacity: 1;
+  visibility: visible;
+}

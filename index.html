@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Animate css -->
+  <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./assets/reey-font/stylesheet.css" />
+  <link rel="stylesheet" href="./assets/css/animate.css" />
+  <link rel="stylesheet" href="./assets/css/main.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/responsive.css" />
+  <title>Thong-Travel</title>
+</head>
+
+<body>
+  <div class="goitrang">
+    <!-- Header -->
+    <header class="tieude_chinh">
+      <div class="tieude_tren">
+        <div class="container">
+          <div class="tieude_tren_noidung">
+            <div class="tieude_tren_trai">
+              <a href="">
+                <i class="fa-solid fa-phone-volume"></i>
+                +84 346685230
+              </a>
+              <a href="">
+                <i class="fa-solid fa-at"></i>
+                thong3105@gmail.com
+              </a>
+            </div>
+            <div class="tieude_tren_phai">
+              <ul class="danhsach_mxh">
+                <li>
+                  <a href=""><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa-brands fa-dribbble"></i></a>
+                </li>
+              </ul>
+              <div>
+                <a href="" class="nut tieude_tren_phai_nut">Become a local guide</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="menu_chinh">
+        <div class="goi_menu_chinh">
+          <div class="container">
+            <div class="noidung_menu_chinh">
+              <div class="noidung_trai_menu_chinh">
+                <div class="logo">
+                  <a href="index.html"><img src="./assets/imgs/logo-1.png" alt="logo" /></a>
+                </div>
+                <div class="goi_danhsach_menu_chinh">
+                  <div class="mobile-nav__toggler">
+                    <i class="fa-solid fa-bars"></i>
+                  </div>
+                  <ul class="danhsach_menu">
+                    <li class="current">
+                      <a href="index.html">Trang chủ</a>
+                    </li>
+                    <li class=""><a href="">Điểm đến</a></li>
+                    <li class=""><a href="">Giới thiệu</a></li>
+                    <li class=""><a href="">Tin tức</a></li>
+                    <li class=""><a href="">Liên hệ</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="noidung_phai_menu_chinh">
+                <div class="menu_search icon">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="dangnhap_dangky icon">
+                  <i class="fa-regular fa-user"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="main-slider">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./assets/imgs/main-slider-1-1.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/imgs/main-slider-1-2.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/imgs/main-slider-1-3.jpg" alt="" />
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- End slider -->
+    <!-- Tour search -->
+    <section class="tour-search">
+      <div class="container">
+        <!-- <div class="row"> -->
+        <!-- <div class="col-xl-12"> -->
+        <div class="tour-search-box">
+          <!-- <form action="" class="tour-search-content"> -->
+          <div class="row tour-search-content_inner">
+            <div class="tour-search-input_box col-lg-3 col-md-12">
+              <label for="">Nơi đến</label>
+              <br />
+              <input type="text" placeholder="Nhập từ khoá" />
+            </div>
+            <div class="tour-search-input_box col-lg-3 col-md-6 col-sm-12">
+              <label for="">Thời gian</label>
+              <br />
+              <input type="text" placeholder="VD:Tháng 12" />
+            </div>
+            <div class="tour-search-input_box col-lg-3 col-md-6 col-sm-12">
+              <label for="">Thể loại</label>
+              <br />
+              <input type="text" placeholder="VD:Mạo hiểm" />
+            </div>
+            <div class="tour-search_btn-wrap col-lg-3 col-md-12">
+              <button type="submit" class="nut tour-seach_btn">
+                Tìm kiếm
+              </button>
+            </div>
+          </div>
+
+          <!-- </form> -->
+        </div>
+        <!-- </div> -->
+        <!-- </div> -->
+      </div>
+    </section>
+
+    <!--End Tour search -->
+
+    <!-- Destination -->
+    <section class="destination">
+      <div class="container">
+        <div class="section-title">
+          <div class="row">
+            <div class="col-12">
+              <span class="section-title__tagline"> Destination lists </span>
+              <h2 class="section-title__title">Khám phá những nơi kỳ thú</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row destination-list">
+          <div class="col-xl-3 col-lg-3 col-md-12">
+            <div class="destination-item">
+              <div class="destination_img">
+                <img src="./assets/imgs/destination-1-1.png" alt="" />
+                <div class="destination-item_content">
+                  <h2 class="destination_title">
+                    <a href="">Spain</a>
+                  </h2>
+                </div>
+                <div class="destination_button">
+                  <a href="#">6 tours</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-12">
+            <div class="destination-item">
+              <div class="destination_img">
+                <img src="./assets/imgs/destination-1-2.png" alt="" />
+                <div class="destination-item_content">
+                  <p class="destination_sub-title">Cuộc sống hoang dã</p>
+                  <h2 class="destination_title">
+                    <a href="">Thailand</a>
+                  </h2>
+                </div>
+                <div class="destination_button">
+                  <a href="#">6 tours</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-12">
+            <div class="destination-item">
+              <div class="destination_img">
+                <img src="./assets/imgs/destination-1-3.png" alt="" />
+                <div class="destination-item_content">
+                  <h2 class="destination_title">
+                    <a href="">Africa</a>
+                  </h2>
+                </div>
+                <div class="destination_button">
+                  <a href="#">6 tours</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End Destination -->
+    <!-- About -->
+    <section class="about-one">
+      <div class="about-one_shape float-bob-y">
+        <img src="./assets/imgs/about-one-shape-2.png" alt="" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <div class="about-one_left">
+              <div class="about-one_left_img">
+                <img src="./assets/imgs/about-one-img-1.png" alt="" />
+              </div>
+              <div class="about-one_lienhe">
+                <div class="lienhe_icon">
+                  <i class="fa-solid fa-phone-volume"></i>
+                </div>
+                <div class="lienhe_sdt">
+                  <p>Đặt vé ngay</p>
+                  <h4>666 999 0000</h4>
+                </div>
+              </div>
+              <div class="about-one_giamgia">
+                <h2>30%</h2>
+                <h3>Siêu Giảm Giá</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 about-one_right">
+            <div class="about-one_right_inner">
+              <div class="section-title">
+                <div class="section-title__tagline">
+                  Làm quen với chúng tôi
+                </div>
+                <div class="section-title__title">Cùng Đi Với Trevily</div>
+              </div>
+              <div class="about-one_right_content">
+                <p class="inner-desc">
+                  Các lý do bạn nên chọn Trevily cho chuyến đi của mình:
+                </p>
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    Khám phá các khu phố độc đáo và thú vị
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    Hỗ trợ các cộng đồng địa phương trong hành trình của bạn
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    Cộng đồng kinh doanh công nghiệp toàn cầu lớn nhất
+                  </li>
+                </ul>
+                <div class="about-one_btn_box">
+                  <a href="" class="about-one_btn nut"> Đặt vé ngay </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End About -->
+
+    <!-- Đánh giá -->
+    <section class="danhgia">
+      <div class="container">
+        <div class="danhgia_inner_wrap">
+          <div class="row">
+            <div class="col-12">
+              <div class="section-title">
+                <h4 class="section-title__tagline">Testimonials & reviews</h4>
+                <h3 class="section-title__title">Đánh Giá Và Bình Luận</h3>
+              </div>
+            </div>
+          </div>
+          <div class="row danhgia_inner_content">
+            <div class="col-lg-4">
+              <div class="danhgia_item">
+                <div class="danhgia-img">
+                  <img src="./assets/imgs/testimonial-one-img-1.png" alt="" />
+                </div>
+                <div class="danhgia_content">
+                  <div class="danhgia_star">
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                  </div>
+                  <p class="danhgia_desc">
+                    Với sự tận tâm và chuyên nghiệp, công ty du lịch đã mang
+                    đến cho tôi những chuyến đi đáng nhớ, đáp ứng hoàn hảo mọi
+                    nhu cầu và mong muốn.
+                  </p>
+                  <div class="danhgia_info">
+                    <h3 class="danhgia_name">Kevin Martin</h3>
+                    <span class="danhgia_title"> Khách Du Lịch </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="danhgia_item">
+                <div class="danhgia-img">
+                  <img src="./assets/imgs/testimonial-one-img-2.png" alt="" />
+                </div>
+                <div class="danhgia_content">
+                  <div class="danhgia_star">
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                  </div>
+                  <p class="danhgia_desc">
+                    Với sự tận tâm và chuyên nghiệp, công ty du lịch đã mang
+                    đến cho tôi những chuyến đi đáng nhớ, đáp ứng hoàn hảo mọi
+                    nhu cầu và mong muốn.
+                  </p>
+                  <div class="danhgia_info">
+                    <h3 class="danhgia_name">Jessica Brown</h3>
+                    <span class="danhgia_title"> Khách Du Lịch </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="danhgia_item">
+                <div class="danhgia-img">
+                  <img src="./assets/imgs/testimonial-one-img-3.png" alt="" />
+                </div>
+                <div class="danhgia_content">
+                  <div class="danhgia_star">
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                  </div>
+                  <p class="danhgia_desc">
+                    Với sự tận tâm và chuyên nghiệp, công ty du lịch đã mang
+                    đến cho tôi những chuyến đi đáng nhớ, đáp ứng hoàn hảo mọi
+                    nhu cầu và mong muốn.
+                  </p>
+                  <div class="danhgia_info">
+                    <h3 class="danhgia_name">Shirley Smith</h3>
+                    <span class="danhgia_title"> Khách Du Lịch </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End Đánh giá -->
+    <!-- Ảnh minh hoạ -->
+    <section class="anhMinhHoa">
+      <div class="container-fluid anhMinhHoa_list">
+        <ul class="row anhMinhHoa_list_content">
+          <li class="col-lg-3 anhMinhHoa_item">
+            <div class="anhMinhHoa_img-box">
+              <img src="./assets/imgs/gallery-one-img-1.jpg" alt="" />
+              <a href="" class="img-popup"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </li>
+          <li class="col-lg-3 anhMinhHoa_item">
+            <div class="anhMinhHoa_img-box">
+              <img src="./assets/imgs/gallery-one-img-2.jpg" alt="" />
+              <a href="" class="img-popup"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </li>
+          <li class="col-lg-3 anhMinhHoa_item">
+            <div class="anhMinhHoa_img-box">
+              <img src="./assets/imgs/gallery-one-img-3.jpg" alt="" />
+              <a href="" class="img-popup"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </li>
+          <li class="col-lg-3 anhMinhHoa_item">
+            <div class="anhMinhHoa_img-box">
+              <img src="./assets/imgs/gallery-one-img-4.jpg" alt="" />
+              <a href="" class="img-popup"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!--End Ảnh minh hoạ -->
+    <!-- Ly do -->
+    <section class="lydo">
+      <div class="lydo-container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="lydo_trai">
+              <div class="lydo_trai-img">
+                <img src="./assets/imgs/why-choose-left-bg.jpg" alt="">
+              </div>
+              <div class="lydo_label">
+                <p>Trips</p>
+                <p>& tours</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 lydo_phai">
+            <div class="lydo_phai-content">
+              <div class="section-title">
+                <h4 class="section-title__tagline">Lợi ích</h4>
+                <h2 class="section-title__title">Khi Chọn Tevily</h2>
+              </div>
+              <p class="lydo_desc">
+                Chọn Tevily bạn có thể được tận hưởng những cảm giác không thể có ở bất cứ nơi nào khác:
+              </p>
+              <ul class="danhsach_lydo">
+                <li>
+                  <div class="icon">
+                    <i class="fa-solid fa-plane-departure"></i>
+                  </div>
+                  <div class="text">
+                    <h4>Chuyên nghiệp và chứng nhận</h4>
+                    <p>Đội ngũ của chúng tôi bao gồm các chuyên gia được đào tạo chuyên sâu và được chứng nhận trong các
+                      lĩnh vực tương ứng của họ.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="icon">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                  </div>
+                  <div class="text">
+                    <h4>Đặt chuyến tức thì</h4>
+                    <p>Đặt tour với chúng tôi thật nhanh chóng và dễ dàng. Quy trình đặt chỗ hợp lý của chúng tôi cho
+                      phép bạn đảm bảo chuyến tham quan của mình chỉ bằng vài cú nhấp chuột.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!--End Ly do -->
+    <!-- Tin tức -->
+    <section class="tintuc">
+      <div class="container">
+        <div class="tintuc_inner_wrap">
+          <div class="tintuc_tren">
+            <div class="row">
+              <div class="col-lg-9">
+                <div class="tintuc_tren_trai">
+                  <h4 class="section-title__tagline">From the blog post</h4>
+                  <h3 class="section-title__title">Tin tức & Bài viết</h3>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="tintuc_tren_phai">
+                  <a href="" class="tintuc_btn nut">Xem Thêm Bài Viết</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tintuc_duoi">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="tintuc_duoi_item">
+                  <div class="img-box">
+                    <img src="./assets/imgs/news-one-img-1.jpg" alt="Anh tin tuc">
+                    <a href="">
+                      <i class="fa-solid fa-plus"></i>
+                    </a>
+                    <div class="tintuc_ngay">
+                      <p>28
+                        <br>
+                        <span>Tháng 1</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="tintuc_duoi_content">
+                    <ul class="tintuc_duoi_cmt">
+                      <li>
+                        <a href="">
+                          <i class="fa-regular fa-circle-user"></i>
+                          <span>Quản trị viên</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="">
+                          <i class="fa-regular fa-comments"></i>
+                          <span>Bình Luận</span>
+                        </a>
+                      </li>
+                    </ul>
+                    <h3 class="tintuc_duoi_title">
+                      <a href="">Đến với Nhật Bản ngay</a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="tintuc_duoi_item">
+                  <div class="img-box">
+                    <img src="./assets/imgs/news-one-img-2.jpg" alt="Anh tin tuc">
+                    <a href="">
+                      <i class="fa-solid fa-plus"></i>
+                    </a>
+                    <div class="tintuc_ngay">
+                      <p>28
+                        <br>
+                        <span>Tháng 1</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="tintuc_duoi_content">
+                    <ul class="tintuc_duoi_cmt">
+                      <li>
+                        <a href="">
+                          <i class="fa-regular fa-circle-user"></i>
+                          <span>Quản trị viên</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="">
+                          <i class="fa-regular fa-comments"></i>
+                          <span>Bình Luận</span>
+                        </a>
+                      </li>
+                    </ul>
+                    <h3 class="tintuc_duoi_title">
+                      <a href="">Hành trình cùng những người bạn</a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="tintuc_duoi_item">
+                  <div class="img-box">
+                    <img src="./assets/imgs/news-one-img-3.jpg" alt="Anh tin tuc">
+                    <a href="">
+                      <i class="fa-solid fa-plus"></i>
+                    </a>
+                    <div class="tintuc_ngay">
+                      <p>28
+                        <br>
+                        <span>Tháng 1</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="tintuc_duoi_content">
+                    <ul class="tintuc_duoi_cmt">
+                      <li>
+                        <a href="">
+                          <i class="fa-regular fa-circle-user"></i>
+                          <span>Quản trị viên</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="">
+                          <i class="fa-regular fa-comments"></i>
+                          <span>Bình Luận</span>
+                        </a>
+                      </li>
+                    </ul>
+                    <h3 class="tintuc_duoi_title">
+                      <a href="">Những địa điểm đẹp nhất thế giới</a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End Tin tức -->
+    <!-- Footer -->
+    <footer class="trangchu_footer">
+      <div class="trangchu_footer_tren">
+        <div class="container">
+          <div class="trangchu_footer__tren_inner">
+            <div class="row">
+              <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="tienich_item">
+                  <div class="tienich_logo">
+                    <a href=""><img src="./assets/imgs/footer-logo.png" alt=""></a>
+                  </div>
+                  <p class="tienich_text">
+                    Chào mừng đến với Công ty Du lịch của chúng tôi.
+                  </p>
+                  <ul class="tienich_list_contact">
+                    <li>
+                      <i class="fa-solid fa-square-phone"></i>
+                      <a href="">+92 666 888 0000</a>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-envelope"></i>
+                      <a href="">thong@gmail.com</a>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-location-dot"></i>
+                      <a href="">02 Thanh Sơn, Hải Châu, Đà Nẵng</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-2 col-md-6 col-sm-12">
+                <div class="tienich_item tienich_congty">
+                  <h4 class="tienich_title">
+                    Giới thiệu
+                  </h4>
+                  <ul class="tienich_congty_list">
+                    <li>
+                      <a href="">Về chúng tôi</a>
+                    </li>
+                    <li>
+                      <a href="">Blog</a>
+                    </li>
+                    <li>
+                      <a href="">Khách hàng & Đối tác</a>
+                    </li>
+                    <li>
+                      <a href="">Làm việc ngay</a>
+                    </li>
+                    <li>
+                      <a href="">Gặp gỡ đội ngũ</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-2 col-md-6 col-sm-12">
+                <div class="tienich_item tienich_khampha">
+                  <h4 class="tienich_title">
+                    Khám phá
+                  </h4>
+                  <ul class="tienich_khampha_list">
+                    <li>
+                      <a href="">Tài khoản</a>
+                    </li>
+                    <li>
+                      <a href="">Điều khoản</a>
+                    </li>
+                    <li>
+                      <a href="">
+                        Liên hệ
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">Chương trình liên kết</a>
+                    </li>
+                    <li><a href="">Chính sách bảo mật</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="tienich_item tienich_bantin">
+                  <h4 class="tienich_title">
+                    Bản tin
+                  </h4>
+                  <div class="tienich_email-input-box">
+                    <input class="tienich_email_input" type="text" placeholder="Email Address">
+                    <a href="" class="tienich_email-btn">Đăng ký</a>
+                  </div>
+                  <div class="tienich_dongy">
+                    <i class="fa-regular fa-circle-check"></i>
+                    <p>Tôi đồng ý với các điều khoản của dịch vụ</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="trangchu_footer_duoi">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="trangchu_footer_duoi_content">
+                <a href="" class="scroll-to-top_btn"><i class="fa-solid fa-arrow-up"></i></a>
+                <ul class="footer_list_social">
+                  <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                  <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                  <li><a href=""><i class="fa-brands fa-pinterest-p"></i></a></li>
+                  <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+                <p class="footer_coppyright">
+                  @ All Copyright 2024,
+                  <a href="">Bracket Web</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--End Footer -->
+  </div>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./node_modules/wowjs/dist/wow.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

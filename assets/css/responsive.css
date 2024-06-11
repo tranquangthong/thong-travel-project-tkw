@@ -1,0 +1,22 @@
+/* About-one */
+
+@media (max-width: 992.98px) {
+    .about-one_left_img {
+        margin-bottom: 20px;
+    }
+    .about-one_right_content {
+        text-align: center;
+    }
+}
+/* About-one */
+
+/* footer */
+@media (max-width: 768.98px) {
+    .tienich_item {
+        margin-bottom: 20px;
+    }
+    .tienich_title {
+        margin-bottom: 20px;
+    }
+}
+/* footer */
