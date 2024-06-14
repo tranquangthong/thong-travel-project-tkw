@@ -156,3 +156,22 @@ ul li {
   opacity: 1;
   visibility: visible;
 }
+
+
+/* Page header */
+.page-header_img-box {
+  width: 100%;
+  position: relative;
+}
+.page-header_img img {
+
+  position: relative;
+}
+.page-header-title {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  color: #fff;
+}
+/*End Page header */
+

@@ -1,0 +1,116 @@
+.diemden_wrap {
+    margin: 100px 0px;
+}
+/* Điểm đến bên trái */
+.diemden_img img {
+    width: 100%;
+}
+.diemden_content {
+    margin-top: 20px;
+}
+.diemden_title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 18px;
+}
+.diemden_content p {
+    color: var(--gray-color);
+    font-size: 16px;
+    margin: 0;
+    padding-bottom: 30px;
+}
+.diemden_overview_title {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.diemden_overview_list li {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ebe6de;
+    margin-bottom: 10px;
+}
+.diemden_overview_left {
+    width: 50%;
+    color: #000;
+    font-weight: 500;
+}
+.diemden_overview_right {
+    color: var(--color-one);
+    font-weight: 500;
+}
+
+.diemden_faq h2 button {
+    color: #000;
+    font-weight: 600;
+}
+.diemden_faq h2:hover button {
+    color: #000;
+    text-decoration: none;
+}
+button:focus:not(:focus-visible) {
+    text-decoration: none;
+    outline: 0;
+    border: none;
+    color: var(--color-one);
+}
+.diemden_faq .card-header {
+    background-color: #FAF5EE;
+}
+.diemden_faq .card-body {
+    color: var(--gray-color);
+}
+.diemden_uudai {
+    position: relative;
+    display: block;
+    border: 1px solid #ebe6de;
+    border-radius: 8px;
+    padding: 41px 35px 44px;
+}
+.diemden_uudai_title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.diemden_uudai_list li {
+    display: flex;
+    padding: 17px 0px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ebe6de;
+}
+.diemden_uudai_list li .diemden_uudai_img {
+    margin-right: 20px;
+
+}
+.diemden_uudai_list li .diemden_uudai_content {
+    flex: 1;
+}
+.diemden_uudai_content h6 {
+    color: var(--color-one);
+    font-weight: 700;
+}
+.diemden_uudai_list li:last-child {
+    border: none;
+}
+
+.diemden_giamgia {
+    margin-top: 20px;
+    position: relative;
+}
+.diemden_giamgia_img img {
+    width: 100%;
+}
+.diemden_giamgia_content {
+    position: absolute;
+    bottom: 44px;
+    left: 50px;
+    font-family: var(--rey-font);
+}
+.diemden_giamgia_content h2, .diemden_giamgia_content h4 {
+    font-weight: 700;
+    color: #fff;
+}
+/* Điểm đến bên trái */

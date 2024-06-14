@@ -54,7 +54,6 @@ var swiper = new Swiper(".mySwiper", {
 
 
 
-
  
 // Header fixed
   document.addEventListener("DOMContentLoaded", function() {
@@ -76,6 +75,4 @@ var swiper = new Swiper(".mySwiper", {
   });
 
 // Header fixed
-
-  
 

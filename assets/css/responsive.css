@@ -1,3 +1,30 @@
+/* Header_responsive  */
+@media (max-width: 1200px) {
+    .goi_danhsach_menu_chinh {
+        display: none;
+    }
+    .mobile-nav__toggler i {
+        display: block;
+        font-size: 32px;
+        color: var(--color-one);
+      }
+  }
+@media (max-width: 992px) {
+    .tieude_tren {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .noidung_phai_menu_chinh {
+        display: none;
+    }
+    .noidung_trai_menu_chinh {
+        width: 100%;
+    }
+}
+  /* Header_responsive  */
+
+
 /* About-one */
 
 @media (max-width: 992.98px) {
@@ -20,3 +47,92 @@
     }
 }
 /* footer */
+
+
+
+
+
+/* Trang Tin Tức */
+
+/* new-details_bottom */
+@media (max-width:768.98px) {
+    .new-details_bottom {
+        display: block;
+        text-align: center;
+    }
+    .new-details_bottom .new-details_list_social {
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
+/* new-details_bottom */
+/* Author */
+@media (max-width: 768.98px) {
+    .author {
+        display: block;
+    }
+    .author_img {
+        margin-bottom: 20px;
+    }
+}
+/* Author */
+/* comment */
+@media (max-width:768.98px) {
+    .comment_item {
+        display: block;
+    }
+    .comment-img {
+        display: block;
+        width: 100%;
+        margin-bottom: 22px;
+    }
+    .comment_btn {
+        position: relative;
+        padding: 10px 20px;
+    }
+}
+/* comment */
+
+/* comment-form */
+@media (max-width: 992.98px) {
+    .comment-form {
+        margin-bottom: 20px;
+    }
+}
+/* comment-form */
+
+/* sidebar */
+@media (max-width:992.98px) {
+    .search_input_box input[type="search"] {
+        width: 100%;
+    }
+}
+/* sidebar */
+/* Trang Tin Tức */
+
+/* Trang giới thiệu */
+@media (max-width:1200px) {
+    .about-page__right {
+        margin: 30px 0px;
+    }
+
+
+    /* counter-up */
+    .counter-box {
+        padding: 0;
+        border: 0;
+    }
+    /* counter-up */
+}
+@media (max-width:998px) {
+    .counter-container {
+        display: block;
+    }
+    
+
+    .thanhvien_item {
+        margin-bottom: 20px;
+    }
+}
+/* Trang giới thiệu */
+
