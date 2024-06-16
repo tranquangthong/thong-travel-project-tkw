@@ -23,7 +23,36 @@
     }
 }
   /* Header_responsive  */
-
+/* Tour-search */
+@media (max-width: 991px) {
+    .tour-search-input_box:nth-child(1) {
+      border-bottom: 1px solid #ebe6de;
+    }
+    .tour-search-input_box:nth-child(2) {
+      border: none;
+    }
+    .tour-search-content_inner {
+      border: 1px solid #ebe6de;
+    }
+    .tour-search .nut.tour-seach_btn {
+      border-radius: 0;
+    }
+  }
+  @media (max-width: 768px) {
+    .tour-search-input_box:nth-child(2) {
+      border-bottom: 1px solid #ebe6de;
+    }
+    .tour-search-input_box:nth-child(3) {
+      border: none;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .tour-search-input_box {
+      padding: 20px 40px;
+    }
+  }
+  /*End Tour-search */
 
 /* About-one */
 

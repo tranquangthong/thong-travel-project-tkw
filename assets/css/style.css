@@ -96,6 +96,9 @@
   font-size: 16px;
   font-weight: 600;
 }
+.goi_danhsach_menu_chinh .danhsach_menu li:hover > a {
+  color: var(--color-one);
+}
 .goi_danhsach_menu_chinh .danhsach_menu .current > a {
   color: var(--black-color);
 }

@@ -14,8 +14,8 @@ body {
 
 a,
 a:hover,
-a:focus,
-a:visited {
+a:focus
+ {
   text-decoration: none;
 }
 ul {
@@ -36,16 +36,15 @@ ul li {
   display: inline-block;
   vertical-align: middle;
   /* Căn chình phần từ theo chiều dọc dựa trên phần tử cha */
-  -webkit-appearance: none;
   border: none;
-  outline: none !important;
+  outline: none;
   background-color: var(--color-one);
   color: #fff;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
   padding: 8px 30px 8px;
-  transition: all 0.3s linear;
+  transition: all 0.3s linear;/*Tốc độ chuyển đổi không thay đổi từ đầu đến cuối*/
   overflow: hidden;
   letter-spacing: 0.1em;
   z-index: 1;
@@ -59,12 +58,12 @@ ul li {
   height: 100%;
   background-color: #313041;
   transition-delay: 0.1s;
-  transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;/*bắt đầu chậm, tăng tốc ở giữa và cuối cùng chậm*/
   transition-duration: 0.5s;
   transition-property: all;
   opacity: 1;
   transform-origin: bottom;
-  transform-style: preserve-3d;
+  transform-style: preserve-3d;/*Hiển thị phần tử trong không gian 3 chiều*/
   transform: scaleY(0);
   z-index: -1;
 }
@@ -98,36 +97,7 @@ ul li {
   object-fit: cover;
 }
 
-/* Tour-search */
-@media (max-width: 991px) {
-  .tour-search-input_box:nth-child(1) {
-    border-bottom: 1px solid #ebe6de;
-  }
-  .tour-search-input_box:nth-child(2) {
-    border: none;
-  }
-  .tour-search-content_inner {
-    border: 1px solid #ebe6de;
-  }
-  .tour-search .nut.tour-seach_btn {
-    border-radius: 0;
-  }
-}
-@media (max-width: 768px) {
-  .tour-search-input_box:nth-child(2) {
-    border-bottom: 1px solid #ebe6de;
-  }
-  .tour-search-input_box:nth-child(3) {
-    border: none;
-  }
-}
 
-@media (max-width: 576px) {
-  .tour-search-input_box {
-    padding: 20px 40px;
-  }
-}
-/*End Tour-search */
 /* Title */
 .section-title {
   text-align: center;
