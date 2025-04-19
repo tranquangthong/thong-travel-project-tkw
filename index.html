@@ -90,8 +90,11 @@
                 <div class="menu_search icon">
                   <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
-                <div class="dangnhap_dangky icon">
+                <div class="dangnhap_dangky icon" title="Đăng nhập" id="openLoginModal">
                   <i class="fa-regular fa-user"></i>
+                </div>
+                <div class="dangky icon" title="Đăng ký" id="openRegisterModal">
+                  <i class="fa-solid fa-user-plus"></i>
                 </div>
               </div>
             </div>
@@ -721,6 +724,83 @@
     </footer>
     <!--End Footer -->
   </div>
+  <!-- Modal Đăng Ký -->
+  <div class="register-modal" id="registerModal">
+    <div class="register-modal__content">
+      <span class="register-modal__close" id="closeRegisterModal">&times;</span>
+      <h2>Đăng Ký Tài Khoản</h2>
+      <form class="register-form">
+        <div class="form-group">
+          <label for="fullname">Họ và Tên</label>
+          <input type="text" id="fullname" name="fullname" placeholder="Nhập họ và tên" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Nhập email" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Mật Khẩu</label>
+          <input type="password" id="password" name="password" placeholder="Nhập mật khẩu" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Số Điện Thoại</label>
+          <input type="tel" id="phone" name="phone" placeholder="Nhập số điện thoại" required>
+        </div>
+        <button type="submit" class="nut register-btn">Đăng Ký Ngay</button>
+        <p class="terms">Bằng cách đăng ký, bạn đồng ý với <a href="#">Điều khoản & Chính sách</a>.</p>
+      </form>
+    </div>
+  </div>
+  <!-- Modal Đăng Nhập -->
+<div class="login-modal" id="loginModal">
+  <div class="login-modal__content">
+    <span class="login-modal__close" id="closeLoginModal">×</span>
+    <h2>Đăng Nhập</h2>
+    <form class="login-form">
+      <div class="form-group">
+        <label for="login-email">Email</label>
+        <input type="email" id="login-email" name="email" placeholder="Nhập email" required>
+      </div>
+      <div class="form-group">
+        <label for="login-password">Mật Khẩu</label>
+        <input type="password" id="login-password" name="password" placeholder="Nhập mật khẩu" required>
+      </div>
+      <button type="submit" class="nut login-btn">Đăng Nhập</button>
+      <p class="forgot-password"><a href="#">Quên mật khẩu?</a></p>
+    </form>
+  </div>
+</div>
+<!-- Modal Đặt Vé -->
+<div class="booking-modal" id="bookingModal">
+  <div class="booking-modal__content">
+    <span class="booking-modal__close" id="closeBookingModal">×</span>
+    <h2>Đặt Vé Du Lịch</h2>
+    <form class="booking-form">
+      <div class="form-group">
+        <label for="booking-fullname">Họ và Tên</label>
+        <input type="text" id="booking-fullname" name="fullname" placeholder="Nhập họ và tên" required>
+      </div>
+      <div class="form-group">
+        <label for="booking-email">Email</label>
+        <input type="email" id="booking-email" name="email" placeholder="Nhập email" required>
+      </div>
+      <div class="form-group">
+        <label for="booking-phone">Số Điện Thoại</label>
+        <input type="tel" id="booking-phone" name="phone" placeholder="Nhập số điện thoại" required>
+      </div>
+      <div class="form-group">
+        <label for="booking-destination">Điểm Đến</label>
+        <input type="text" id="booking-destination" name="destination" placeholder="Nhập điểm đến (VD: Paris)" required>
+      </div>
+      <div class="form-group">
+        <label for="booking-date">Ngày Khởi Hành</label>
+        <input type="date" id="booking-date" name="date" required>
+      </div>
+      <button type="submit" class="nut booking-btn">Gửi Yêu Cầu Đặt Vé</button>
+      <p class="terms">Chúng tôi sẽ liên hệ bạn sớm để xác nhận thông tin.</p>
+    </form>
+  </div>
+</div>
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"

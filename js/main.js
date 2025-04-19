@@ -47,3 +47,52 @@ var swiper = new Swiper(".mySwiper", {
 
 // Header fixed
 
+// Điều khiển modal đăng ký
+document.getElementById('openRegisterModal').addEventListener('click', function() {
+  document.getElementById('registerModal').classList.add('active');
+});
+
+document.getElementById('closeRegisterModal').addEventListener('click', function() {
+  document.getElementById('registerModal').classList.remove('active');
+});
+
+// Đóng modal khi nhấp ra ngoài nội dung
+document.getElementById('registerModal').addEventListener('click', function(e) {
+  if (e.target === this) {
+    this.classList.remove('active');
+  }
+});
+
+// Điều khiển modal đăng nhập
+document.getElementById('openLoginModal').addEventListener('click', function() {
+  document.getElementById('loginModal').classList.add('active');
+});
+
+document.getElementById('closeLoginModal').addEventListener('click', function() {
+  document.getElementById('loginModal').classList.remove('active');
+});
+
+// Đóng modal khi nhấp ra ngoài nội dung
+document.getElementById('loginModal').addEventListener('click', function(e) {
+  if (e.target === this) {
+    this.classList.remove('active');
+  }
+});
+// Điều khiển modal đặt vé
+document.querySelectorAll('.about-one_btn.nut').forEach(button => {
+  button.addEventListener('click', function(e) {
+    e.preventDefault();
+    document.getElementById('bookingModal').classList.add('active');
+  });
+});
+
+document.getElementById('closeBookingModal').addEventListener('click', function() {
+  document.getElementById('bookingModal').classList.remove('active');
+});
+
+// Đóng modal khi nhấp ra ngoài nội dung
+document.getElementById('bookingModal').addEventListener('click', function(e) {
+  if (e.target === this) {
+    this.classList.remove('active');
+  }
+});
